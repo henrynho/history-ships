@@ -1,0 +1,203 @@
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+	background: url("collage/fondo.png");
+}
+
+.contenedor{
+	width: 950px;
+	margin: auto;
+	position: relative;
+}
+.background{
+	background: url("imagen/background.png");
+	background-size: cover;
+}
+.portada{
+	color: white;
+	height: 450px;
+	padding: 20px;
+}
+.portada button{
+	margin-bottom: 70px;
+}
+.logotipo{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.menu{
+	font-size: 23px;
+	display: inline-block;
+	position: absolute;
+	margin-bottom: 80px;
+	right: 0;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+.menu li:before{
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.titulo {
+  font-family: "arial black";
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.titulo-a{
+	font-family: "Copperplate Gothic Regular";
+	font-size: 28px;
+	margin-bottom: 30px;
+	margin-top: 5;
+}
+.titulo span{
+	text-decoration: underline;
+}
+.button-a{
+	background-color: #ff3366;
+	border-radius: 20px;
+	border: none;
+	padding: 7px 12px;
+	background: linear-gradient(to right, #37465b, #ff3366);
+
+}
+.button{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+
+/*AIRCRAFT*/
+.aviones{
+	background: #fff;
+	margin-top: auto;
+}
+.aviones h2{
+	font-size: 40px;
+	font-family: "Britannic Bold regular";
+	padding-bottom: 30px;
+	margin-top: 0px;
+}
+.izquierda{
+	float: left;
+	position: relative;
+	margin-right: 20px;
+	margin-top: auto;
+}
+.derecha{
+	float: right;
+	position: relative;
+	margin-left: 30px;
+	margin-bottom: 100px;
+}
+.parrafo-a{
+	font-size: 15px;
+	margin-right: 0;
+	position: relative;
+	padding-top: 40px;
+	margin-bottom: 100px;
+}
+.parrafo-b{
+	font-size: 15px;
+	margin-left: 15px;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+.parrafo-c{
+	font-size: 15px;
+	padding-right: 15px;
+	position: relative;
+	padding-bottom: 70px;
+}
+.button-b{
+	background-color: #ff3366;
+	border: none;
+	border-radius: 5px;
+}
+.button-text{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+/*FOOTER*/
+.footer{
+	background-color: #37465b;
+	background-size: cover;
+}
+.footer .contenedor{
+	display: flex;
+}
+.col1, .col2 {
+  display: flex;
+}
+.col1{
+	margin-left: 50px;
+	padding:20px 20px;
+}
+.col2 {
+  align-items: flex-start;
+}
+.col1 p{
+	color: white;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+.col2 a{
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+	text-decoration: none;
+	padding-top: 50px;
+	margin-left: 10px;
+}
+.contactos{
+	padding-top: 50px;
+	padding-left: 35px;
+}
+
+
+/*
+Model Aircraft*/
+
+.background-b{
+	background: url("imagen/background.png");
+	background-size: cover;
+	height: 100px;
+}
+.table{
+	background-color: white;
+}
+table{
+	width: 100%;
+}
+th{
+	padding: 20px 20px;
+	text-align: left;
+}
+th{
+	background-color: #37465b;
+	color: white;
+}
+table, td, th{
+	border:2px solid #37465b;
+	border-collapse: collapse;
+}
+.carrito-compra {
+	padding: 30px 80px;
+	margin: 30px 80px;
+}
+
+
+
