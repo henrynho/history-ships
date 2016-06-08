@@ -3,11 +3,20 @@ body{
 	margin: 0;
 	background: url("collage/fondo.png");
 }
+.post{
+	transition: .3s;
+}
+.post:hover{
+	cursor: pointer;
+	color: #A21B3F;
+	text-shadow: 0 0 3px #fff;
+}
 
 .contenedor{
 	width: 950px;
 	margin: auto;
 	position: relative;
+	padding: 8px 8px 0 8px;
 }
 .background{
 	background: url("imagen/background.png");
@@ -65,6 +74,7 @@ body{
 	background-color: #ff3366;
 	border-radius: 20px;
 	border: none;
+	cursor: pointer;
 	padding: 7px 12px;
 	background: linear-gradient(to right, #37465b, #ff3366);
 
@@ -75,12 +85,21 @@ body{
 	cursor: pointer;
 	font-size: 15px;
 }
-
+.button-a:hover{
+	cursor: pointer;
+	transition: .3s;
+	box-shadow: 1px 0 10px #fff;
+	transform: scale(1.2);
+}
 
 /*AIRCRAFT*/
 .aviones{
-	background: #fff;
+	width: 950px;
+	background: white;
 	margin-top: auto;
+	box-shadow: 2px 0 5px #999;
+	-webkit-box-shadow: 2px 0 5px #999;
+  -moz-box-shadow: 2px 0 5px #999;
 }
 .aviones h2{
 	font-size: 40px;
@@ -126,15 +145,24 @@ body{
 	border-radius: 5px;
 }
 .button-text{
+	cursor: pointer;
 	font-size: 12px;
 	color: white;
 	text-decoration: none;
+}
+.button-b:hover{
+	cursor: pointer;
+	box-shadow: 1px 0 5px #999;
+	transform: scale(1.2);
+	transition: .3s;
 }
 
 /*FOOTER*/
 .footer{
 	background-color: #37465b;
 	background-size: cover;
+	flex-direction: column;
+/*	min-height: 100vh;*/
 }
 .footer .contenedor{
 	display: flex;
@@ -167,7 +195,6 @@ body{
 	padding-left: 35px;
 }
 
-
 /*
 Model Aircraft*/
 .logotipo-header{
@@ -180,8 +207,18 @@ Model Aircraft*/
 	background-size: cover;
 	height: 100px;
 }
+.tabla{
+	background: white;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+		box-shadow: 2px 0 5px #999;
+	-webkit-box-shadow: 2px 0 5px #999;
+  -moz-box-shadow: 2px 0 5px #999;
+}
 .table{
 	background-color: white;
+
 }
 table{
 	width: 100%;
@@ -202,6 +239,5 @@ table, td, th{
 	padding: 30px 80px;
 	margin: 30px 80px;
 }
-
 
 
