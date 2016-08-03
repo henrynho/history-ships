@@ -5,14 +5,16 @@
 	<title>aviones de guerra</title>
 	<link rel="stylesheet" type="text/css" href="aircraft.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
 </head>
 <body>
 	<section id="portada" class="portada background-b"> <!-- PORTADA -->
 		<header id="header" class="header contenedor">
 			<figure class="logotipo-header">
-				<img src="imagen/logo.png" width="246" height="110" alt="history ship logotipo">
+				<img data-src="imagen/logo.png | imagen/logo2x.png" inwidth="206" height="80" alt="history ship logotipo">
 			</figure>
-			<nav class="menu">
+			<span class="burguer-button icon-menu" id="burguer-button"></span>
+			<nav class="menu" id="menu">
 				<ul>
 					<li>
 						<a class="post" href="index.html">Home</a>
@@ -28,7 +30,9 @@
 		</header>
 	</section>
 
-	<section>
+	<section class="contenedor aviones-model">
+	<div class="tabla-demo-contenedor">
+	<div class="tabla-demo">
 		<div class="contenedor tabla">
 			<table class="table">
 				<thead>
@@ -68,24 +72,61 @@
 				</tbody>
 			</table>
 		</div>
+	</div>
+	</div>
 	</section>
 
 	<footer class="footer">
 		<div class="contenedor">
-			<figure class="logotipo">
-				<img src="imagen/logo.png" width="256" height="120" alt="history ship logotipo">
+			<figure class="logotipo-B">
+				<img data-src="imagen/logo.png|imagen/logo2x.png" inwidth="206" height="80" alt="history ship logotipo">
 			</figure>
 			<div class="col1">
 				<p>Si desean mas información sobre otros modelos contactenos!!!!</p>
 			</div>
 			<div class="col2">
-			<a href="tel:+99567823">Telefono 99567823</a>
+			<a href="tel:+99567823">Teléfono<br>99567823</a>
 			<div class="contactos">
-				<a href="mailto:contacto@historyships.com">email contacto@historyships.com</a>
-				<a class="social" href="https://www.facebook.com/Aviones-de-la-Segunda-Guerra-Mundial" target="_blanck"><img src="imagen/facebook.png" width="30" alt="facebook"></a>
-				<a class="social" href="https://twitter.com/TiempoReal_IIGM" target="_blanck"><img src="imagen/twitter.png" width="30" alt="twitter"></a>
+				<a href="mailto:contacto@historyships.com">Email<br> contacto@historyships.com</a>
+				<div class="redes-social">
+					<a href="https://www.facebook.com/Aviones-de-la-Segunda-Guerra-Mundial" target="_blanck"><img src="imagen/facebook.png" width="22" alt="facebook"></a>
+					<a href="https://twitter.com/TiempoReal_IIGM" target="_blanck"><img src="imagen/twitter.png" width="22" alt="twitter"></a>
+				</div>
 			</div>
 		</div>
 	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.6.2/blazy.min.js"></script>
+	<script>
+		var $burguerButton = document.getElementById("burguer-button");
+		var $menu = document.getElementById("menu");
+
+		$burguerButton.addEventListener("touchstart",toggleMenu);
+
+		function toggleMenu(){
+			$menu.classList.toggle("active")
+		}
+		// function showMenu(){
+		// 	$menu.classList.add("active")
+		// }
+		// function hideMenu(){
+		// 	$menu.classList.remove("active")
+		// }
+
+		// Belazy loading
+		var bLazy = new Blazy({
+    	selector:"img"
+		});
+		// Belazy loading
+
+		// // gestos touch
+		// var $body = document.body;
+
+		// var gestos = new Hammer($body);
+		// gestos.on('swiperight', showMenu);
+		// var gestos = new Hammer($body);
+		// gestos.on('swipeleft', hideMenu);
+		// // gestos touch
+	</script>
 </body>
 </html>
