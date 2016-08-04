@@ -587,7 +587,8 @@ table, td, th{
 		font-size: 30px;
 	}
 	.derecha, .izquierda-a, .izquierda-b{
-		width: 100%;
+		max-width: 410px;
+		width: 95%;
 		height: auto;
 	}
 	/*AIRCRAFT*/
