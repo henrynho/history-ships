@@ -1,11 +1,11 @@
 /*BURGUER*/
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?cufmpq');
-  src:  url('fonts/icomoon.eot?cufmpq#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?cufmpq') format('truetype'),
-    url('fonts/icomoon.woff?cufmpq') format('woff'),
-    url('fonts/icomoon.svg?cufmpq#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ivmzae');
+  src:  url('fonts/icomoon.eot?ivmzae#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ivmzae') format('truetype'),
+    url('fonts/icomoon.woff?ivmzae') format('woff'),
+    url('fonts/icomoon.svg?ivmzae#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,6 +36,12 @@
 }
 .icon-close:before {
   content: "\ea0d";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-twitter:before {
+  content: "\ea96";
 }
 /*BURGUER*/
 
@@ -592,6 +598,9 @@ table, td, th{
 		height: auto;
 	}
 	/*AIRCRAFT*/
+	/*footer*/
+	
+	/*footer*/
 	
  
 }
