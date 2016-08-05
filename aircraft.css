@@ -53,7 +53,7 @@
 body{
 	font-family: 'Allerta', sans-serif;
 	margin: 0;
-	background: url("/collage/fondo.png");
+	background: url("collage/fondo.png");
 	height: 100vh;
 }
 
@@ -73,7 +73,7 @@ body{
 	padding: 8px 8px 0 8px;
 }
 .background{
-	background: url("/imagen/background.png");
+	background: url("imagen/background.png");
 	background-size: cover;
 }
 .portada{
@@ -255,6 +255,7 @@ body{
 }
 .contactos img{
 	margin-top: 15px;
+	border-radius: 50%;
 }
 
 .contactos img:hover{
@@ -265,7 +266,6 @@ body{
 	padding: 0 10px 0 0;
 }
 
-
   /*Model Aircraft*/
 .logotipo-header{
 	display: inline-block;
@@ -273,7 +273,7 @@ body{
 }
 
 .background-b{
-	background: url("/imagen/background.png");
+	background: url("imagen/background.png");
 	background-size: cover;
 	height: 100px;
 }
@@ -514,6 +514,12 @@ table, td, th{
 		display: flex;
 		justify-content: center;
 	}
+	.redes-social img{
+		width: 60%;
+	}
+	a.redes {
+    margin: 10px 2px;
+	}
 	/*footer*/		
 }
 @media screen and (max-width: 500px){
@@ -598,11 +604,6 @@ table, td, th{
 		height: auto;
 	}
 	/*AIRCRAFT*/
-	/*footer*/
-
-	/*footer*/
-	
- 
 }
  @media screen and (max-width: 448px){
 
@@ -642,10 +643,10 @@ table, td, th{
 		background: url("collage/fondo2x.png");
 	}
 	.background{
-		background: url("/imagen/background2x.png");
+		background: url("imagen/background2x.png");
 	}
 	.background-b{
-		background: url("/imagen/background2x.png");
+		background: url("imagen/background2x.png");
 	}
 }
 
